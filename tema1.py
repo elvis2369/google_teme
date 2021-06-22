@@ -9,6 +9,7 @@ while nr_mutari<=9:
               poz_teren=input("introduceti linia din matrice pt inserare")
               punct=input("introduceti pozitia pe grila de inserat pt X")
               teren[int(poz_teren)].pop(int(punct))
+              #teren[
               teren[int(poz_teren)].insert(int(punct),'x')
               nr_x+=1
               print(teren)
