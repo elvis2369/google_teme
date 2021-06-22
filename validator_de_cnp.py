@@ -1,4 +1,4 @@
-cnp = "1970525100134"
+cnp = input()
 constanta = "279146358279"
 s=0
 for t in range(len(constanta)):
@@ -8,7 +8,6 @@ if rez<10:
     c=rez
 else:
     c=1
-print(rez)
 def cifre_an():
     ann = []
     for i in range(1,100):
